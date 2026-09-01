@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="About Team PAPAA, the creators of Stalled, a horror maze game built from scratch."
+    />
+    <title>About Us | Team PAPAA</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-logo">Stalled</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About Us</a></li>
+          <li><a href="index.html#play">Play</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-story">
+        <div class="story-stage">
+          <div class="letter-reveal" aria-label="PAPAA letter animation">
+            <span class="papaa-letter is-active" data-letter="P">P</span>
+            <span class="papaa-letter" data-letter="A">A</span>
+            <span class="papaa-letter" data-letter="P">P</span>
+            <span class="papaa-letter" data-letter="A">A</span>
+            <span class="papaa-letter" data-letter="A">A</span>
+          </div>
+
+          <div class="story-panel" aria-live="polite">
+            <article class="member-story active" id="active-member-story">
+              <div class="story-visual">
+                <div class="story-photo"></div>
+              </div>
+              <div class="story-copy">
+                <span class="member-role">Creative thinker</span>
+                <h3>Prajwal Tiwari</h3>
+                <p>
+                  A thoughtful builder who brings structure, creativity, and steady
+                  direction to the team’s ideas.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="team-photo-card">
+          <div class="group-photo" aria-label="Group photo placeholder"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Team PAPAA</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
