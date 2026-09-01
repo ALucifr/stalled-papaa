@@ -657,5 +657,31 @@ main {
   .team-grid {
     grid-template-columns: 1fr;
   }
+
+  .story-stage {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    min-height: auto;
+  }
+
+  .letter-reveal {
+    gap: 0.25rem;
+  }
+
+  .papaa-letter {
+    min-width: 70px;
+    height: 70px;
+    font-size: clamp(2rem, 5vw, 4rem);
+  }
+
+  .member-story {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    max-width: 100%;
+  }
+
+  .story-photo {
+    min-height: 160px;
+  }
 }
 
