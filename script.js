@@ -34,6 +34,7 @@ if (letterEls.length && storyCard) {
       role: "Vision setter",
       name: "Aagaman Koirala",
       photo: "images/IMG_4722.webp",
+      tightCrop: true,
       bio: "A calm problem-solver who adds balance, momentum, and fresh ideas to every challenge we face.",
     },
     {
@@ -85,6 +86,7 @@ if (letterEls.length && storyCard) {
     bioEl.textContent = member.bio;
     photoEl.src = member.photo;
     photoEl.alt = member.name;
+    photoEl.classList.toggle("tight-crop", Boolean(member.tightCrop));
   };
 
   const activateLetter = (index, direction = 1) => {

@@ -571,6 +571,8 @@ main {
 
 .story-visual {
   width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
 }
 
 .story-photo {
@@ -581,6 +583,11 @@ main {
   object-position: center;
   border-radius: 18px;
   border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.story-photo.tight-crop {
+  transform: scale(1.28);
+  transform-origin: center 72%;
 }
 
 .story-copy {
