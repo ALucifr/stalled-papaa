@@ -586,7 +586,7 @@ main {
 }
 
 .story-photo.tight-crop {
-  transform: scale(1.55);
+  transform: scale(1.7);
   transform-origin: center center;
 }
 
