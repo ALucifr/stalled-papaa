@@ -27,26 +27,31 @@ if (letterEls.length && storyCard) {
     {
       role: "Creative thinker",
       name: "Prajwal Tiwari",
+      photo: "images/IMG_4715.webp",
       bio: "A thoughtful builder who brings structure, creativity, and steady direction to the team’s ideas.",
     },
     {
       role: "Vision setter",
       name: "Aagaman Koirala",
+      photo: "images/IMG_4722.webp",
       bio: "A calm problem-solver who adds balance, momentum, and fresh ideas to every challenge we face.",
     },
     {
       role: "Maze designer",
       name: "Pratik Subedi",
+      photo: "images/IMG_4725.webp",
       bio: "A creative thinker with a sharp eye for detail and a strong drive to turn concepts into meaningful work.",
     },
     {
       role: "Momentum builder",
       name: "Asbin Raj Phuyal",
+      photo: "images/IMG_4716.webp",
       bio: "Someone who keeps the team inspired, focused, and driven by the process of building something bigger than ourselves.",
     },
     {
       role: "Team energizer",
       name: "Anmol Basnet",
+      photo: "images/IMG_4721.webp",
       bio: "A dedicated contributor who keeps the team moving with energy, teamwork, and a strong sense of purpose.",
     },
   ];
@@ -58,6 +63,7 @@ if (letterEls.length && storyCard) {
   const roleEl = storyCard.querySelector(".member-role");
   const nameEl = storyCard.querySelector("h3");
   const bioEl = storyCard.querySelector("p");
+  const photoEl = storyCard.querySelector(".story-photo");
   const lastIndex = memberData.length - 1;
 
   const lockPageScroll = () => {
@@ -77,6 +83,8 @@ if (letterEls.length && storyCard) {
     roleEl.textContent = member.role;
     nameEl.textContent = member.name;
     bioEl.textContent = member.bio;
+    photoEl.src = member.photo;
+    photoEl.alt = member.name;
   };
 
   const activateLetter = (index, direction = 1) => {

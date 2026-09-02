@@ -576,8 +576,10 @@ main {
 .story-photo {
   width: 100%;
   min-height: 220px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(255, 219, 88, 0.2), rgba(217, 61, 61, 0.2)), #1a2230;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -605,9 +607,13 @@ main {
 }
 
 .group-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: cover;
   min-height: 260px;
   border-radius: 16px;
-  background: linear-gradient(135deg, rgba(255, 219, 88, 0.15), rgba(217, 61, 61, 0.15)), #1a2230;
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -682,6 +688,7 @@ main {
 
   .story-photo {
     min-height: 160px;
+    height: 220px;
   }
 }
 
