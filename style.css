@@ -407,13 +407,17 @@ main {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
-  min-height: 280px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  text-align: center;
-  color: var(--muted);
+  overflow: hidden;
+}
+
+.embed-box iframe {
+  display: block;
+  width: 485px;
+  max-width: 100%;
+  border: 0;
 }
 
 .scratch-button {
