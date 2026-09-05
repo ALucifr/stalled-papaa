@@ -25,10 +25,10 @@ const storyCard = document.getElementById("active-member-story");
 if (letterEls.length && storyCard) {
   const memberData = [
     {
-      role: "Creative Contributor",
+      role: "Game Architect",
       name: "Prajwal Tiwari",
       photo: "images/IMG_4715.webp",
-      bio: "A creative contributor who helped shape the project through both idea development and hands-on execution. He supported the team in refining the game’s direction, contributed to logic discussions, and helped build visual assets that gave the game its identity. His work added depth, consistency, and polish across the project from early concept to final build.",
+      bio: "Supported the team with idea development, logic discussions, and visual asset creation. His contributions helped shape the game’s identity and added polish across the project.",
     },
     {
       role: "Game Logic Architect",
