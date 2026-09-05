@@ -26,7 +26,15 @@ Each member contributed to the game in different ways, including:
 The game embed section will be added later using the Scratch embed element provided by the team.
 
 ```html
-<!-- Add Scratch or game embed here -->
+<iframe
+              src="https://scratch.mit.edu/projects/1378317345/embed"
+              allowtransparency="true"
+              width="485"
+              height="402"
+              frameborder="0"
+              scrolling="no"
+              allowfullscreen
+            ></iframe>
 ```
 
 ## Project overview
@@ -51,28 +59,3 @@ Then open:
 ```text
 http://localhost:8000
 ```
-
-## Deployment
-This project is suitable for static hosting platforms such as:
-- GitHub Pages
-- Netlify
-
-### GitHub Pages deployment
-1. Create a GitHub repository.
-2. Push only the contents of the `portfolio` folder to the repository root.
-3. Go to GitHub repository settings.
-4. Open **Pages**.
-5. Select:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/root**
-
-### Netlify deployment
-1. Import the GitHub repository.
-2. Set the publish directory to the `portfolio` folder.
-3. Deploy the site.
-
-## Notes
-- This site is static and does not require a build step.
-- Only the files inside the `portfolio` folder should be used for deployment.
-- Do not publish the parent project folder if you only want the portfolio website live.
