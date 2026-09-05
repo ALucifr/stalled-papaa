@@ -221,6 +221,15 @@ main {
   margin-bottom: 0.8rem;
 }
 
+.eyebrows {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
 .hero-copy h1,
 .section-heading h2,
 .play-copy h2,
@@ -474,7 +483,10 @@ main {
 }
 
 .gallery-photo {
+  display: block;
+  width: 100%;
   min-height: 120px;
+  object-fit: cover;
   border-radius: 12px;
   background:
     linear-gradient(135deg, rgba(217, 61, 61, 0.35), rgba(255, 219, 88, 0.12)),
@@ -702,4 +714,3 @@ main {
     height: 220px;
   }
 }
-
