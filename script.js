@@ -25,35 +25,35 @@ const storyCard = document.getElementById("active-member-story");
 if (letterEls.length && storyCard) {
   const memberData = [
     {
-      role: "Creative thinker",
+      role: "Creative Contributor",
       name: "Prajwal Tiwari",
       photo: "images/IMG_4715.webp",
-      bio: "A thoughtful builder who brings structure, creativity, and steady direction to the team’s ideas.",
+      bio: "A creative contributor who helped shape the project through both idea development and hands-on execution. He supported the team in refining the game’s direction, contributed to logic discussions, and helped build visual assets that gave the game its identity. His work added depth, consistency, and polish across the project from early concept to final build.",
     },
     {
-      role: "Vision setter",
+      role: "Game Logic Architect",
       name: "Aagaman Koirala",
       photo: "images/IMG_4722.webp",
       tightCrop: true,
-      bio: "A calm problem-solver who adds balance, momentum, and fresh ideas to every challenge we face.",
+      bio: "A key creative and technical contributor who worked closely on the game's fundamental logic and systems. He collaborated on ideas, discussed solutions, and helped shape the mechanics that define how the game works and feels.",
     },
     {
-      role: "Maze designer",
+      role: "Team Connector",
       name: "Pratik Subedi",
       photo: "images/IMG_4725.webp",
-      bio: "A creative thinker with a sharp eye for detail and a strong drive to turn concepts into meaningful work.",
+      bio: "A consistent part of the journey who helped keep communication and collaboration flowing throughout the project. He contributed to maintaining team synergy, keeping everyone connected, and creating a positive environment where ideas could move forward together.",
     },
     {
-      role: "Momentum builder",
+      role: "Maze Designer",
       name: "Asbin Raj Phuyal",
       photo: "images/IMG_4716.webp",
-      bio: "Someone who keeps the team inspired, focused, and driven by the process of building something bigger than ourselves.",
+      bio: "The creative mind behind the maze, transforming the game's concept into an environment for players to explore. He focused on the structure, layout, and flow of the maze, helping create an experience that feels engaging while fitting the game's overall atmosphere.",
     },
     {
-      role: "Team energizer",
+      role: "Animation Crafter",
       name: "Anmol Basnet",
       photo: "images/IMG_4721.webp",
-      bio: "A dedicated contributor who keeps the team moving with energy, teamwork, and a strong sense of purpose.",
+      bio: "Contributed to bringing the game's visual elements to life through sprite animations and related work. His attention to movement and visual details added personality and polish to the game's characters and interactive elements.",
     },
   ];
 
